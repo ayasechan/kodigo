@@ -1,0 +1,14 @@
+[tools]
+go = "1.27.1"
+
+[tasks.regen]
+description = "Regenerate all versioned clients from schema/"
+run = "go run ./cmd/kodi-gen -schema schema/v13 -out v13 -package v13 && go run ./cmd/kodi-gen -schema schema/v12 -out v12 -package v12"
+
+[tasks.check]
+description = "Build, vet and test everything"
+run = "go build ./... && go vet ./... && go test ./..."
+
+[tasks.test]
+description = "Run tests"
+run = "go test ./..."

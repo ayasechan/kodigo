@@ -1,0 +1,15 @@
+# Binaries
+*.exe
+*.out
+/kodi-gen
+
+# Test artifacts
+*.test
+coverage.out
+coverage.html
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
