@@ -87,7 +87,7 @@ default:
 
 | Package | Kodi API | Kodi | Schema | Status |
 | ------- | -------- | ---- | ------ | ------ |
-| `v13` (also `kodi` root) | v13 | 20 Nexus 及以上 | 13.5.0 (Omega) | supported (latest) |
+| `v13` (also `kodi` root) | v13 | 20 Nexus and later | 13.5.0 (Omega) | supported (latest) |
 | `v12` | v12 | 19 Matrix | 12.4.0 (Matrix branch) | supported |
 
 `patch` versions are ignored (internal changes only); within a major, the
